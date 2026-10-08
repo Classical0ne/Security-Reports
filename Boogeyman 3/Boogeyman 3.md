@@ -140,20 +140,13 @@ we find all the executed commands in addition to the attacker trying to download
 | **File (HTA)** | ProjectFinancialSummary_Q3.pdf.hta | Malicious HTML Application embedded inside the ISO file. |
 | **File** | review.dat | Malicious payload/DLL extracted and executed via rundll32.exe. |
 | **IP Address** | 165.232.170.151 | Command and Control (C2) IP address communicated with over port 80. |
-| **URL** | [https://github.com/gentilkiwi/mimikatz/releases/
-download/2.2.0-20220919/mimikatz_trunk.zip](https://github.com/gentilkiwi/mimikatz/releases/download/2.2.0-20220919/mimikatz_trunk.zip) | Remote URL used to download the Mimikatz credential dumping tool. |
-| **URL** | [https://raw.githubusercontent.com/PowerShellMafia/
-PowerSploit/master/Recon/PowerView.ps1](https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Recon/PowerView.ps1) | Remote URL used to download the PowerView script for domain enumeration. |
+| **URL** | [https://github.com/gentilkiwi/mimikatz/releases/download/2.2.0-20220919/mimikatz_trunk.zip](https://github.com/gentilkiwi/mimikatz/releases/download/2.2.0-20220919/mimikatz_trunk.zip) | Remote URL used to download the Mimikatz credential dumping tool. |
+| **URL** | [https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Recon/PowerView.ps1](https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Recon/PowerView.ps1) | Remote URL used to download the PowerView script for domain enumeration. |
 | **URL** | [http://ff.sillytechninja.io/ransomboogey.exe](https://www.google.com/url?sa=E&source=gmail&q=http://ff.sillytechninja.io/ransomboogey.exe) | Remote URL used to download the final ransomware payload onto the Domain Controller. |
 | **File** | ransomboogey.exe | Ransomware executable downloaded and executed by the attacker. |
-| **Account/
-Hash** | QUICKLOGISTICS\itadmin (NTLM:
-F84769D250EB95EB2D7D8B4A1C5613F2) | Compromised account hash utilized for Pass-the-Hash attacks. |
-| **Account/
-Password** | QUICKLOGISTICS\allan.smith
-(Tr!ckyP@ssw0rd987) | Cleartext credentials discovered in a network script and used for lateral movement. |
-| **Scheduled
-Task** | Review | Scheduled task created for persistence, set to run daily at 06:00. |
+| **Account/Hash** | QUICKLOGISTICS\itadmin (NTLM:F84769D250EB95EB2D7D8B4A1C5613F2) | Compromised account hash utilized for Pass-the-Hash attacks. |
+| **Account/Password** | QUICKLOGISTICS\allan.smith(Tr!ckyP@ssw0rd987) | Cleartext credentials discovered in a network script and used for lateral movement. |
+| **ScheduledTask** | Review | Scheduled task created for persistence, set to run daily at 06:00. |
 
 **5. Timeline**
 
